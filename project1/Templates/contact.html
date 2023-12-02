@@ -1,0 +1,30 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block title %}contact{% endblock %}
+
+{% block content %}
+    <h1>Contact Details</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th >Address</th>
+                <th >Phone</th>
+                <th >Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for contact in contacts %}
+            <tr>
+                <td>{{ contact.Address }}</td>
+                <td>{{ contact.Phone }}</td>
+                <td>{{ contact.Email }}</td>
+            </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+
+   
+
+    {% endblock %}

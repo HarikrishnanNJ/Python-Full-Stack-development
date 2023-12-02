@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(58, 85, 85);
+}
+h1{
+    color:white;
+    text-align: center;
+}
+p{
+    color:rgb(219, 160, 160);
+}
+img{
+    height:300px;
+    width:300px;
+    padding-left:550px ;
+}
+table{
+    border-color: white;
+    color:rgb(201, 140, 140);
+    text-align: center;
+    margin-left: 450px;
+    padding:5px;
+    width:500px;
+    height:150px;
+}
+#button1{
+    padding:10px;
+    background-color: rgb(202, 131, 131);
+    border: none;
+    margin-left: 645px;
+    margin-top: 20px;
+}
+#form1{
+    padding:10px;
+    color: rgb(202, 131, 131);
+    font-size: 20px;
+    background-color: rgb(58, 85, 85);
+    margin-top: 10px;
+    /* margin-left: 300px; */
+
+}
+input{
+    font-size: 20px;
+    width:300px;
+}
+#button2{
+    padding:10px;
+    background-color: rgb(202, 131, 131);
+    border: none;
+    margin-top: 2ch;
+    margin-left: 100px;
+    width:100px;
+}

@@ -1,0 +1,58 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+
+        <h1>Student Details</h1>
+        <table border="1">
+            <thead id="headings">
+                <tr>
+                    <th>Name</th>
+                    <th>Roll_no</th>
+                    <th>age</th>
+                    <th>place</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in students %}
+                <tr>
+                    <td>{{ student.Name }}</td>
+                    <td>{{ student.Roll_no }}</td>
+                    <td>{{ student.Age }}</td>
+                    <td>{{ student.Place }}</td>
+                    <td><a href="delete/{{ student.id }}">delete</a></td>
+                    <td><a href="update/{{ student.id }}">update</a></td>
+                    
+                </tr>
+
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <button type="button" id="button1">ADD DATA</button>
+
+        <div class="form">
+
+        <form action="add" method="POST" id="form1"  style="display: none;">
+
+            {% csrf_token %}
+        
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="rn">Roll_no</label><br>
+            <input type="text" id="rollno" name="rollno"><br>
+            <label for="age">Age</label><br>
+            <input type="text" id="age" name="age"><br>
+            <label for="place">Place</label><br>
+            <input type="text" id="place" name="place"><br><br>
+
+            <input type="submit" id=button2 value="Submit">
+        
+        </form>
+
+        </div>
+
+
+        {% endblock %}
