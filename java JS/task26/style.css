@@ -1,0 +1,21 @@
+h1{
+    color:rgb(255, 188, 4);
+    font-weight: bold;
+    line-height: 0;
+    font-family: 'Rampart One', sans-serif;
+    margin:40px;
+}
+button{
+    padding:5px;
+    font-size:20px;
+    margin:20px;
+    background-color:rgb(255, 188, 4) ;
+    color:rgb(255, 252, 242);
+    border:none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+}
+body{
+    text-align: center;
+}

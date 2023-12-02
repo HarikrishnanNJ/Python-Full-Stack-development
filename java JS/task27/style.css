@@ -1,0 +1,19 @@
+img{
+    height: 180px;
+    width: 215px;
+}
+button{
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+}
+.container1{
+
+    margin-left: 550px;
+    margin-top: 145px;
+  
+}
+p{
+    font-size: 20px;
+}

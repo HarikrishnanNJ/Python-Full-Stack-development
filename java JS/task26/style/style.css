@@ -1,0 +1,27 @@
+button{
+    color: white;
+    background-color: orange;
+    padding: 23px;
+    border-radius: 15px;
+    border: 2px solid orange;
+    font-size: 25px;    
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 50px;
+}
+#head{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: orange;
+    width: 100px;
+    padding-left: 145px;
+  
+}
+#stage{
+    font-size: 100px;
+    color: orange;
+}
+body{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}

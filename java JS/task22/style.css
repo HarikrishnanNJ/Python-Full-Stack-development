@@ -1,0 +1,49 @@
+body{
+    
+    color:white;
+    text-align: center;
+}
+h1{
+    margin:10px;
+    padding:10px;
+}
+#letter1{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #6943FF;
+    color:white;
+    text-align: center;
+    
+}
+button{
+    padding:5px;
+    width: 130px;
+    font-size: 20px;
+    margin:20px;
+   
+}
+.conatiner1{
+    background-color: #6943FF;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 10, 10);
+    width: 500px;
+    justify-content: center;
+    margin:auto;
+padding:20px;
+}
+
+.sub{
+   
+    margin:auto;
+    background-color: rgb(41, 40, 40);
+    margin: 15px;
+}

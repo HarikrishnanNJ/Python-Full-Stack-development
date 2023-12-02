@@ -1,0 +1,33 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-top:180px;
+}
+img{
+    padding-top: 20px;
+    height: 200px;
+    width: 243px;
+}
+.block1{
+    display:flex ;
+    margin-left: 50px;
+    
+}
+button,#num{
+    padding:5px;
+    width: 50px;
+    font-size: 30px;
+
+}
+#button1{
+    width:200px;
+    margin: 25px;
+}
+#num{
+    margin: 0px;
+    text-align: center;
+}
+.block2{
+    margin-left: 35px;
+}
+
