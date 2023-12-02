@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#part1{
+    width: 40%;
+    background-color: #93a9ff;
+    height: 700px;
+    
+}
+
+#part2{
+    width: 60%;
+    background-color: rgb(49, 44, 44);
+    
+}
+img{
+    
+    width: 500px;
+    height: 580px;
+    object-fit: cover;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+#part2 button{
+    color: white;
+    background-color:rgb(49, 44, 44) ;
+    border: 2px solid rgb(49, 44, 44);
+    font-size: 80px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+}

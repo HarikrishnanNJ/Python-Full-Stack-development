@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.container1{
+    display: flex;
+    width:100%;
+    background-color: black;
+    height: 643px;
+
+}
+.block1{
+    width: 50%;
+    background-color: #93a9ff;
+}
+button{
+  display: block;
+  cursor: pointer;
+    width:380px;
+    color:white;
+    background-color: black;
+    border:none;
+    font-size: 80px;
+    border-color: black;
+    height:50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+
+}
+.block2{
+    padding-left: 190px;
+    padding-top: 150px;
+}
+img{
+    height: 590px;
+    width: 530px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+

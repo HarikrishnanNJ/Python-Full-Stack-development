@@ -1,0 +1,32 @@
+
+label{
+    text-align: center;
+    font-size: 70px;
+}
+input{
+    width: 450px;
+    height: 80px;
+    border: 3px solid black;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top:170px;
+}
+
+.strong{
+    color:green;
+}
+.medium{
+    color:orangered;
+}
+.weak{
+    color:red;
+}
+#strength{
+    font-size: 30px;
+}
