@@ -1,0 +1,31 @@
+.top{
+    color: white;
+    background:linear-gradient(to right,rgb(3, 45, 122),rgba(198, 57, 80, 0.908));
+    height: 200px;
+    padding: 60px;
+    
+    
+}
+#temp{
+    width:280px
+}
+.mid{
+    margin-top: 30px;
+}
+
+span{
+    color: rgb(27, 159, 212);
+}
+h6{
+    margin-top: 30px;
+}
+.bottom{
+    margin-top: 100px;
+}
+#imagel{
+    margin-left: 150px;
+}
+#s2{color: black;
+    font-weight: 600;
+
+}
