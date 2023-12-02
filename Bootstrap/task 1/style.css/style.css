@@ -1,0 +1,34 @@
+.a{
+ 
+    background-image:linear-gradient(to top right,rgb(77, 133, 166),rgb(229, 86, 243));
+    height:250px;
+    color:white;
+   
+}
+.z{
+ 
+    background-image:linear-gradient(to top right,rgb(77, 133, 166),rgb(229, 86, 243));
+    margin-top: 100px  !important;
+    height: 100px;
+   
+}
+h1{
+    width: 600px;
+    font-size: 60px  !important;
+    padding-left: 120px;
+    padding-top: 55px;
+}
+.container{
+    padding-top:50px;
+}
+img{
+    height: 200px;
+    width: 355px;
+}
+
+.d{
+    margin-left: 65px;
+}
+.row1{
+    padding-top:50px;
+}
