@@ -1,0 +1,24 @@
+#number{
+    display: flex;
+    justify-content: center;  
+}
+#num1{
+    text-decoration: underline;
+    padding: 10px;
+}
+#num2{
+    text-decoration: underline;
+    padding: 10px;
+}
+button{
+    border: 2px solid black;
+    padding: 20px;
+    width: 137px;
+    margin: 14px;
+    font-size: 20px;
+    font-weight: 800;
+}
+body{
+    font-size: 30px;
+    text-align: center;
+}
