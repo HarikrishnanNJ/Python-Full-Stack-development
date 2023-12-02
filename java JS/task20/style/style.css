@@ -1,0 +1,43 @@
+.box{
+    display: flex;    
+    justify-content: center;
+    margin-top: 200px;    
+}
+button{
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(61, 120, 151);
+    color: white;
+    border: 2px solid white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.first{
+    margin-right: 20px;
+}
+.second{
+    margin-left: 20px;
+
+}
+#result1,#result2{
+    text-align: center;
+    font-size: 40px;
+}
+#home,#guest{
+    text-align: center;
+    color: white;
+}
+#num1 ,#num2{
+    background-color: black;
+    color: red;
+    padding: 20px;
+    width: 91px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 72px;
+}
+body{
+    background-color: rgb(61, 120, 151);
+}
